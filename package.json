@@ -1,0 +1,17 @@
+{
+  "name": "signal-atlas-schema",
+  "version": "0.1.0",
+  "description": "Shared JSON Schema, types, and confidence-score logic for Signal Atlas",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}
